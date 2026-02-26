@@ -1,0 +1,25 @@
+@import "tailwindcss";  
+
+:root {
+  /* 使用翠綠色到深綠色的漸層 */
+  --bg-gradient: linear-gradient(135deg, #10b981 0%, #064e3b 100%);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  background: var(--bg-gradient);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+#app {
+  width: 100%;
+}
+
+/* 確保所有互動元素有平滑過渡 */
+* {
+  @apply transition-all duration-200;
+}
