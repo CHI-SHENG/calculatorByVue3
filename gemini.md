@@ -3,7 +3,7 @@
 ## 🛠 技術棧規範 (Tech Stack)
 - **Framework**: Vue 3 (使用 Composition API `<script setup>` 語法)
 - **Language**: TypeScript (嚴格模式，禁止使用 `any`)
-- **Styling**: Tailwind CSS (使用 Utility-first 模式，避免自定義 CSS)
+- **Styling**: Tailwind CSS
 - **Icons**: Lucide Vue Next (預設圖示庫)
 - **State Management**: Pinia (如果需要狀態管理)
 
